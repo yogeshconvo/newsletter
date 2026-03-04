@@ -19,6 +19,7 @@
             width: 800px;
             margin: auto;
         }
+
         @media (max-width: 768px) {
             .container {
                 width: 100%;
@@ -202,13 +203,24 @@
             margin-left: 30px;
             list-style: none;
             gap: 21%;
-
-
-
         }
 
-
-
+        .contact-btn {
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: 380px;
+            background-color: #C12016;
+            padding: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            text-align: center;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
 
 
         /* BOTTOM CONTACT */
@@ -223,6 +235,11 @@
             color: #fff;
             /* font-size: 14px; */
         }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+        }
     </style>
 </head>
 
@@ -230,9 +247,9 @@
 
     <div class="container">
 
-        <img src="/newsletter.jpg">
+        <img src="https://www.metlok.in/newsletter/structural/newsletter.jpg">
         <div class="logo">
-            <img src="./logo.png" alt="">
+            <a href="https://www.metlok.in/"><img src="https://www.metlok.in/newsletter/structural/logo.png" alt=""></a>
         </div>
         <div class="title">
             Structural Adhesive<br>
@@ -241,22 +258,24 @@
         </div>
         <div class="product">
             <div class="product-img">
-                <img src="./my_t_bond.png" alt="">
-                <h1> 1171</h1>
+                <img src="https://www.metlok.in/newsletter/structural/my_t_bond.png" alt="">
+                <h1>1171</h1>
             </div>
             <h2>STRUCTURAL ACRYLIC ADHESIVE</h2>
             <div class="desc">
                 My-T-Bond 1171 is used for bonding Aluminum /GI
                 metal brackets to GI sheets for Solar Panel Installation.
-
             </div>
         </div>
 
         <div class="features">
             <ul class="features-list">
-                <li><img src="./Right-Icon.png" alt="Right-Icon">NO DRILLING → NO LEAKAGE PROBLEM</li>
-                <li><img src="./Right-Icon.png" alt="Right-Icon">MAINTENANCE-FREE → NO LOOSENING OVERTIME</li>
-                <li><img src="./Right-Icon.png" alt="Right-Icon">MULTI-METAL COMPATIBILITY → GI, MS, SS & AL</li>
+                <li><img src="https://www.metlok.in/newsletter/structural/Right-Icon.png" alt="Right-Icon">NO DRILLING →
+                    NO LEAKAGE PROBLEM</li>
+                <li><img src="https://www.metlok.in/newsletter/structural/Right-Icon.png"
+                        alt="Right-Icon">MAINTENANCE-FREE → NO LOOSENING OVERTIME</li>
+                <li><img src="https://www.metlok.in/newsletter/structural/Right-Icon.png" alt="Right-Icon">MULTI-METAL
+                    COMPATIBILITY → GI, MS, SS & AL</li>
             </ul>
         </div>
 
@@ -268,6 +287,8 @@
             <p>CAPACITY PLANTS</p>
 
         </div>
+
+        <a href="https://www.metlok.in/" class="contact-btn">Contact Us</a>
         <div class="">
 
             <!-- <ul class="advantages-list">
@@ -289,8 +310,8 @@
 
 
         <div class="footer">
-            <div>www.metlok.in</div>
-            <div>sales@metlok.in</div>
+            <div><a href="https://www.metlok.in/">www.metlok.in</a></div>
+            <div><a href="mailto:sales@metlok.in">sales@metlok.in</a></div>
         </div>
 
     </div>
